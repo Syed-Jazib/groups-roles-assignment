@@ -1,13 +1,9 @@
 import { TestBed } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        RouterTestingModule
-      ],
       declarations: [
         AppComponent
       ],
@@ -20,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'groups_roles_assignment'`, () => {
+  it(`should have as title 'groups-roles'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('groups_roles_assignment');
+    expect(app.title).toEqual('groups-roles');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('groups_roles_assignment app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('groups-roles app is running!');
   });
 });
