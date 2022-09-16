@@ -1,5 +1,5 @@
 # GroupsRolesAssignment
-1.Clone this repository from the given link (https://Syed-Jazib@bitbucket.org/syed-jazib/groups-roles-assignment.git) in Visual Studio Code. 
+1.Clone this repository from the given link (https://github.com/Syed-Jazib/groups-roles-assignment.git) in Visual Studio Code. 
 2.Please install node-modules (npm install).
 3.Serve the project(ng serve).
 4.Open the localHost & you will find the assignment UI. 
