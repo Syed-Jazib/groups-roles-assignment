@@ -1,5 +1,13 @@
 # GroupsRolesAssignment
-
+1.Clone this repository from the given link (https://Syed-Jazib@bitbucket.org/syed-jazib/groups-roles-assignment.git) in Visual Studio Code. 
+2.Please install node-modules (npm install).
+3.Serve the project(ng serve).
+4.Open the localHost & you will find the assignment UI. 
+5.Create a new group & create a new role.
+6.Click on newly created role & assign the access rights.
+7.Click on groups tab & selected newly created group & assign the roles using checkboxes.
+8.Using JSON File to store Access Rights & local storage to store Groups & Roles.
+Note:Please switched to master branch.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
 ## Development server
